@@ -1,3 +1,4 @@
+@extends('layouts.master')
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 <head>
@@ -14,22 +15,11 @@
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>Coffee</title>
+    <title>Coffee Clubs</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-        <!--
-        CSS
-        ============================================= -->
-        <link rel="stylesheet" href="assets/css/linearicons.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">     
     </head>
     <body>
-
           <header id="header" id="home">
             <div class="header-top">
                   <div class="container">
@@ -37,13 +27,13 @@
                           <div class="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
                               <ul>
                                   <li>
-                                      Mon-Fri: 8am to 2pm
+                                      Seg-Sex: 08:00am ás 18:00pm
                                   </li>
                                   <li>
-                                      Sat-Sun: 11am to 4pm
+                                      Sab: 11:00am ao 12:00am
                                   </li>
                                   <li>
-                                      <a href="tel:(012) 6985 236 7512">(012) 6985 236 7512</a>
+                                      <a href="Tel:(027) 0800 250 0408">(027) 0800 250 0408</a>
                                   </li>				  					
                               </ul>
                           </div>
@@ -58,14 +48,14 @@
                   <nav id="nav-menu-container">
                     <ul class="nav-menu">
                       <li class="menu-active"><a href="#home">Home</a></li>
-                      <li><a href="#about">About</a></li>
-                      <li><a href="#coffee">Coffee</a></li>
-                      <li><a href="#review">Review</a></li>
+                      <li><a href="#about">Sobre</a></li>
+                      <li><a href="#coffee">Café</a></li>
+                      <li><a href="#review">Feedback</a></li>
                       <li><a href="#blog">Blog</a></li>
-                      <li class="menu-has-children"><a href="">Pages</a>
+                      <li class="menu-has-children"><a href="">Páginas</a>
                         <ul>
-                          <li><a href="generic.html">Generic</a></li>
-                          <li><a href="elements.html">Elements</a></li>
+                          <li><a href="generic.html">Loja</a></li>
+                          <li><a href="elements.html">Curiosidade</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -80,12 +70,12 @@
             <div class="container">
                 <div class="row fullscreen d-flex align-items-center justify-content-start">
                     <div class="banner-content col-lg-7">
-                        <h6 class="text-white text-uppercase">Now you can feel the Energy</h6>
+                        <h6 class="text-white text-uppercase">Agora você pode sentir a energia</h6>
                         <h1>
-                            Start your day with <br>
-                            a black Coffee				
+                            Comece seu dia <br>
+                            com um café				
                         </h1>
-                        <a href="#" class="primary-btn text-uppercase">Buy Now</a>
+                        <a href="#" class="primary-btn text-uppercase">Comprar</a>
                     </div>											
                 </div>
             </div>
@@ -101,12 +91,12 @@
                         <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="assets/img/play-icon.png" alt=""></a>
                     </div>						
                     <div class="col-lg-6 video-left">
-                        <h6>Live Coffee making process.</h6>
-                        <h1>We Telecast our <br>
-                        Coffee Making Live</h1>
-                        <p><span>We are here to listen from you deliver exellence</span></p>
+                        <h6>Processo de fabricação do café.</h6>
+                        <h1>Transmitimos nossos processos<br>
+                        de fabricação</h1>
+                        <p><span>Estamos aqui para ouvir de você para entregar a excelência</span></p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                            Tudo começa com uma rigorosa seleção de sementes. Depois da colheita, elas passam pela secagem, torra e moagem e o pó é mandado direto para a embalagem. Só então, o café vai para a prateleira do mercado e de lá, tem destino certo: sua xícara.
                         </p>
                         <img class="img-fluid" src="assets/img/elements/signature.png" alt="">
                     </div>
@@ -121,8 +111,8 @@
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-10">
                         <div class="title text-center">
-                            <h1 class="mb-10">What kind of Coffee we serve for you</h1>
-                            <p>Who are in extremely love with eco friendly system.</p>
+                            <h1 class="mb-10">Que tipo de café nós servimos para você</h1>
+                            <p>Que é apaixonado por esse liquído maravilhoso.</p>
                         </div>
                     </div>
                 </div>						
@@ -136,7 +126,7 @@
                                 </p>
                             </div>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
+                                Consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado.
                             </p>								
                         </div>
                     </div>
@@ -149,20 +139,20 @@
                                 </p>
                             </div>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
+                                Consiste na adição de água quente no café, dando uma força, mas sabor diferente, do café do gotejamento regular.
                             </p>								
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
-                                <h4>Espresso</h4>
+                                <h4>Expresso</h4>
                                 <p class="price float-right">
                                     $49
                                 </p>
                             </div>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
+                                É um método de preparar café através da passagem de água quente (não fervente) sob alta pressão pelo café moído.
                             </p>								
                         </div>
                     </div>	
@@ -175,7 +165,7 @@
                                 </p>
                             </div>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
+                                É um café com leite típico italiano, consistindo num café expresso misturado com um pouco de leite com espuma.
                             </p>								
                         </div>
                     </div>
@@ -188,59 +178,20 @@
                                 </p>
                             </div>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
+                                É feito a base de um terço de café expresso, um terço de leite vaporizado e um terço de chocolate em pó ou calda.
                             </p>								
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
-                                <h4>Coffee Latte</h4>
+                                <h4>Café com leite</h4>
                                 <p class="price float-right">
                                     $49
                                 </p>
                             </div>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
-                            </p>								
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-menu">
-                            <div class="title-div justify-content-between d-flex">
-                                <h4>Piccolo Latte</h4>
-                                <p class="price float-right">
-                                    $49
-                                </p>
-                            </div>
-                            <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
-                            </p>								
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-menu">
-                            <div class="title-div justify-content-between d-flex">
-                                <h4>Ristretto</h4>
-                                <p class="price float-right">
-                                    $49
-                                </p>
-                            </div>
-                            <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
-                            </p>								
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-menu">
-                            <div class="title-div justify-content-between d-flex">
-                                <h4>Affogato</h4>
-                                <p class="price float-right">
-                                    $49
-                                </p>
-                            </div>
-                            <p>
-                                Usage of the Internet is becoming more common due to rapid advance.
+                                É a mistura entre duas bebidas famosas: café e o leite, sendo uma bebida típica de Portugal e Brasil.
                             </p>								
                         </div>
                     </div>															
@@ -255,8 +206,8 @@
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-10">
                         <div class="title text-center">
-                            <h1 class="mb-10">What kind of Coffee we serve for you</h1>
-                            <p>Who are in extremely love with eco friendly system.</p>
+                            <h1 class="mb-10">História do café</h1>
+                            <p>Não existem registros oficiais sobre a origem do café. Sabe-se, entretanto, que se trata de uma planta nativa das regiões altas da Etiópia (Cafa e Enária). Segundo uma das lendas, foi um pastor etíope, denominado Kaldi, quem percebeu que havia algo diferente nas plantas da região.</p>
                         </div>
                     </div>
                 </div>						
@@ -297,61 +248,59 @@
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-10">
                         <div class="title text-center">
-                            <h1 class="mb-10">What kind of Coffee we serve for you</h1>
-                            <p>Who are in extremely love with eco friendly system.</p>
+                            <h1 class="mb-10">Clientes, amigos e projetos</h1>
+                            <p>Somos uma empresa nacional que está no mercado de café desde 1987.</p>
                         </div>
                     </div>
                 </div>						
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 single-review">
-                        <img src="assets/img/r1.png" alt="">
+                    <div class="col-lg-6 col-md-6 single-review">           
                         <div class="title d-flex flex-row">
-                            <h4>lorem ipusm</h4>
+                            <h4>Carlos Eduardo da silva</h4>
                             <div class="star">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>								
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>						
                             </div>
                         </div>
                         <p>
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                            Execente trabalho, amo o café de vocês, é um dos melhores que já comprei. Sem contar na entrega que é rápida e segura.
                         </p>
                     </div>	
                     <div class="col-lg-6 col-md-6 single-review">
-                        <img src="assets/img/r2.png" alt="">
                         <div class="title d-flex flex-row">
-                            <h4>lorem ipusm</h4>
+                            <h4>Ana Luiza figueredo</h4>
                             <div class="star">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>								
                             </div>
                         </div>
                         <p>
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+                            Oferecem produtos de qualidade. Sempre visam o lado do cliente.
                         </p>
                     </div>	
                 </div>
                 <div class="row counter-row">
                     <div class="col-lg-3 col-md-6 single-counter">
                         <h1 class="counter">2536</h1>
-                        <p>Happy Client</p>
+                        <p>Clientes felizes</p>
                     </div>
                     <div class="col-lg-3 col-md-6 single-counter">
                         <h1 class="counter">7562</h1>
-                        <p>Total Projects</p>
+                        <p>Total de projetos</p>
                     </div>
                     <div class="col-lg-3 col-md-6 single-counter">
                         <h1 class="counter">2013</h1>
-                        <p>Cups Coffee</p>
+                        <p>Xícaras de café</p>
                     </div>
                     <div class="col-lg-3 col-md-6 single-counter">
-                        <h1 class="counter">10536</h1>
-                        <p>Total Submitted</p>
+                        <h1 class="counter">12111</h1>
+                        <p>Total Apresentado</p>
                     </div>																		
                 </div>
             </div>	
@@ -364,8 +313,8 @@
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-10">
                         <div class="title text-center">
-                            <h1 class="mb-10">What kind of Coffee we serve for you</h1>
-                            <p>Who are in extremely love with eco friendly system.</p>
+                            <h1 class="mb-10">Blog Coffe Clubs</h1>
+                            <p>Acompanhe nosso blog para ficar por dentro das novidades do mundo do café.</p>
                         </div>
                     </div>
                 </div>						
@@ -381,7 +330,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
                         </p>
                         <p class="post-date">
-                            31st January, 2018
+                            20 de agosto, 2020
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 single-blog">
@@ -395,39 +344,38 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
                         </p>
                         <p class="post-date">
-                            31st January, 2018
+                            12 de agosto, 2020
                         </p>
                     </div>						
                 </div>
             </div>	
         </section>
         <!-- End blog Area -->
-        
-
+    
         <!-- start footer Area -->		
         <footer class="footer-area section-gap">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6>About Us</h6>
+                            <h6>Sobre a Coffe Clubs</h6>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+                                Oferecemos cafés dos mais variados tipos para sua família e empresa de uma forma diferente e inovadora. Cumprimos com excelência o que prometemos para os nossos clientes.
                             </p>
                             <p class="footer-text">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>								
                         </div>
                     </div>
                     <div class="col-lg-5  col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6>Newsletter</h6>
-                            <p>Stay update with our latest</p>
+                            <p>Fique atualizado com nossas últimas</p>
                             <div class="" id="mc_embed_signup">
                                 <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-                                    <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                                    <input class="form-control" name="EMAIL" placeholder="Entre com seu E-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
                                         <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                                         <div style="position: absolute; left: -5000px;">
                                             <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
@@ -440,13 +388,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     </div>						
                     <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
                         <div class="single-footer-widget">
-                            <h6>Follow Us</h6>
-                            <p>Let us be social</p>
+                            <h6>Siga-nos</h6>
+                            <p>É acompanhe tudo na integra</p>
                             <div class="footer-social d-flex align-items-center">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-behance"></i></a>
+                                <a href="https://twitter.com/ClubsCoffe"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/coffeclubs/"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>							
@@ -454,23 +402,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </footer>	
         <!-- End footer Area -->	
-
-        <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>			
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-        <script src="assets/js/easing.min.js"></script>			
-        <script src="assets/js/hoverIntent.js"></script>
-        <script src="assets/js/superfish.min.js"></script>	
-        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>	
-        <script src="assets/js/owl.carousel.min.js"></script>			
-        <script src="assets/js/jquery.sticky.js"></script>
-        <script src="assets/js/jquery.nice-select.min.js"></script>			
-        <script src="assets/js/parallax.min.js"></script>	
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>					
-        <script src="assets/js/mail-script.js"></script>	
-        <script src="assets/js/main.js"></script>	
     </body>
 </html>
