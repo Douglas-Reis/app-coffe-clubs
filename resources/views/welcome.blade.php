@@ -24,6 +24,7 @@
             <div class="header-top">
                   <div class="container">
                       <div class="row justify-content-end">
+                      
                           <div class="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
                               <ul>
                                   <li>
@@ -42,8 +43,8 @@
             </div>			  	
             <div class="container">
                 <div class="row align-items-center justify-content-between d-flex">
-                  <div id="logo">
-                    <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>
+                  <div id="logo" >
+                  <a href="index.html"><img src="assets/img/cofe3.png" alt="" title="" /></a> 
                   </div>
                   <nav id="nav-menu-container">
                     <ul class="nav-menu">
@@ -105,19 +106,22 @@
         </section>
         <!-- End video-sec Area -->
         
+        
         <!-- Start menu Area -->
         <section class="menu-area section-gap" id="coffee">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-10">
                         <div class="title text-center">
-                            <h1 class="mb-10">Que tipo de café nós servimos para você</h1>
+                        <img class="img-fluid" src="{{asset('assets/img/loadcoffe.gif')}}"/>
+                            <h1 class="mb-10"> Que tipo de café nós servimos para você</h1>
                             <p>Que é apaixonado por esse liquído maravilhoso.</p>
                         </div>
                     </div>
                 </div>						
                 <div class="row">
                     <div class="col-lg-4">
+                    <img class="img-fluid" src="{{asset('assets/img/b1.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Cappuccino</h4>
@@ -126,11 +130,12 @@
                                 </p>
                             </div>
                             <p>
-                                Consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado.
+                                Consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado. <br> <br>
                             </p>								
                         </div>
                     </div>
                     <div class="col-lg-4">
+                      <img class="img-fluid" src="{{asset('assets/img/cafe-americano.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Americano</h4>
@@ -144,6 +149,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
+                      <img class="img-fluid" src="{{asset('assets/img/cafe-espresso.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Expresso</h4>
@@ -157,6 +163,7 @@
                         </div>
                     </div>	
                     <div class="col-lg-4">
+                      <img class="img-fluid" src="{{asset('assets/img/machiato.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Macchiato</h4>
@@ -170,6 +177,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
+                     <img class="img-fluid" src="{{asset('assets/img/mocha1.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Mocha</h4>
@@ -178,11 +186,12 @@
                                 </p>
                             </div>
                             <p>
-                                É feito a base de um terço de café expresso, um terço de leite vaporizado e um terço de chocolate em pó ou calda.
+                                É feito a base de um terço de café expresso, um terço de leite vaporizado e um terço de chocolate em pó ou calda. <br> <br>
                             </p>								
                         </div>
                     </div>
                     <div class="col-lg-4">
+                    <img class="img-fluid" src="{{asset('assets/img/cafe-leite.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Café com leite</h4>
@@ -191,7 +200,7 @@
                                 </p>
                             </div>
                             <p>
-                                É a mistura entre duas bebidas famosas: café e o leite, sendo uma bebida típica de Portugal e Brasil.
+                                É a mistura entre duas bebidas famosas: café e o leite, sendo uma bebida típica de Portugal e Brasil. <br> <br>
                             </p>								
                         </div>
                     </div>															
