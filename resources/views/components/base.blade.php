@@ -14,5 +14,6 @@
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>Coffee Clubs</title>  
+    <title>Coffee Clubs</title>
     </head>
+   
