@@ -23,8 +23,8 @@
             </div>			  	
             <div class="container">
                 <div class="row align-items-center justify-content-between d-flex">
-                  <div id="logo">
-                    <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>
+                  <div id="logo" >
+                  <a href="index.html"><img src="assets/img/cofe3.png" alt="" title="" /></a> 
                   </div>
                   <nav id="nav-menu-container">
                     <ul class="nav-menu">
@@ -91,13 +91,15 @@
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-10">
                         <div class="title text-center">
-                            <h1 class="mb-10">Que tipo de café nós servimos para você</h1>
+                        <img class="img-fluid" src="{{asset('assets/img/loadcoffe.gif')}}"/>
+                            <h1 class="mb-10"> Que tipo de café nós servimos para você</h1>
                             <p>Que é apaixonado por esse liquído maravilhoso.</p>
                         </div>
                     </div>
                 </div>						
                 <div class="row">
                     <div class="col-lg-4">
+                    <img class="img-fluid" src="{{asset('assets/img/b1.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Cappuccino</h4>
@@ -106,11 +108,12 @@
                                 </p>
                             </div>
                             <p>
-                                Consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado.
+                                Consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado. <br> <br>
                             </p>								
                         </div>
                     </div>
                     <div class="col-lg-4">
+                      <img class="img-fluid" src="{{asset('assets/img/cafe-americano.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Americano</h4>
@@ -124,6 +127,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
+                      <img class="img-fluid" src="{{asset('assets/img/cafe-espresso.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Expresso</h4>
@@ -137,6 +141,7 @@
                         </div>
                     </div>	
                     <div class="col-lg-4">
+                      <img class="img-fluid" src="{{asset('assets/img/machiato.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Macchiato</h4>
@@ -150,6 +155,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
+                     <img class="img-fluid" src="{{asset('assets/img/mocha1.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Mocha</h4>
@@ -158,11 +164,12 @@
                                 </p>
                             </div>
                             <p>
-                                É feito a base de um terço de café expresso, um terço de leite vaporizado e um terço de chocolate em pó ou calda.
+                                É feito a base de um terço de café expresso, um terço de leite vaporizado e um terço de chocolate em pó ou calda. <br> <br>
                             </p>								
                         </div>
                     </div>
                     <div class="col-lg-4">
+                    <img class="img-fluid" src="{{asset('assets/img/cafe-leite.jpg')}}"/>
                         <div class="single-menu">
                             <div class="title-div justify-content-between d-flex">
                                 <h4>Café com leite</h4>
@@ -171,7 +178,7 @@
                                 </p>
                             </div>
                             <p>
-                                É a mistura entre duas bebidas famosas: café e o leite, sendo uma bebida típica de Portugal e Brasil.
+                                É a mistura entre duas bebidas famosas: café e o leite, sendo uma bebida típica de Portugal e Brasil. <br> <br>
                             </p>								
                         </div>
                     </div>															
@@ -228,8 +235,9 @@
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-10">
                         <div class="title text-center">
-                            <h1 class="mb-10">Clientes, amigos e projetos</h1>
-                            <p>Somos uma empresa nacional que está no mercado de café desde 1987.</p>
+                            <h1 class="mb-10">Nascemos para transformar!</h1>
+                            <p>Fundada em 2020 nossa empresa surgiu como uma startup, dentro de um  dos laboratórios da FASG. 
+                                Estamos crescendo com vontade de levar o melhor do mundo do café a vocês.</p>
                         </div>
                     </div>
                 </div>						
@@ -302,12 +310,11 @@
                     <div class="col-lg-6 col-md-6 single-blog">
                         <img class="img-fluid" src="assets/img/b1.jpg" alt="">
                         <ul class="post-tags">
-                            <li><a href="#">Travel</a></li>
-                            <li><a href="#">Life Style</a></li>
+                            <li><a href="https://veja.abril.com.br/saude/um-cafe-da-manha-farto-pode-ser-a-chave-para-emagrecer-diz-estudo/">Link Afiliado</a></li>
                         </ul>
-                        <a href="#"><h4>Portable latest Fashion for young women</h4></a>
+                        <a href="https://veja.abril.com.br/saude/um-cafe-da-manha-farto-pode-ser-a-chave-para-emagrecer-diz-estudo/"><h4>Um bom café da manhã pode ser a chave para emagrecer</h4></a>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
+                            De acordo com uma nova pesquisa, a escolha aumenta a queima de calorias durante o dia e reduz o açúcar no sangue.
                         </p>
                         <p class="post-date">
                             20 de agosto, 2020
@@ -316,12 +323,11 @@
                     <div class="col-lg-6 col-md-6 single-blog">
                         <img class="img-fluid" src="assets/img/b2.jpg" alt="">
                         <ul class="post-tags">
-                            <li><a href="#">Travel</a></li>
-                            <li><a href="#">Life Style</a></li>
+                            <li><a href="https://veja.abril.com.br/saude/cafe-consumir-ate-25-xicaras-por-dia-nao-faz-mal-ao-coracao-diz-estudo/">Link Afiliado</a></li>
                         </ul>
-                        <a href="#"><h4>Portable latest Fashion for young women</h4></a>
+                        <a href="https://veja.abril.com.br/saude/cafe-consumir-ate-25-xicaras-por-dia-nao-faz-mal-ao-coracao-diz-estudo/"><h4>consumir até 25 xícaras por dia não afeta o coração, define estudo</h4></a>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
+                            O novo estudo britânico derruba a ideia de que grandes quantidades da bebida prejudicam a saúde.
                         </p>
                         <p class="post-date">
                             12 de agosto, 2020
@@ -344,7 +350,7 @@
                             </p>
                             <p class="footer-text">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados</a>
+                                    CoffeClub &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>								
                         </div>
@@ -371,10 +377,9 @@
                             <h6>Siga-nos</h6>
                             <p>É acompanhe tudo na integra</p>
                             <div class="footer-social d-flex align-items-center">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/coffeClubss/"><i class="fa fa-facebook"></i></a>
                                 <a href="https://twitter.com/ClubsCoffe"><i class="fa fa-twitter"></i></a>
                                 <a href="https://www.instagram.com/coffeclubs/"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>							
