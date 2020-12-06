@@ -11,7 +11,7 @@
                                 Seg-Sex: 08:00am ás 18:00pm
                                 </li>
                                 <li>
-                                    Sab: 11:00am ao 12:00am
+                                    Sab: 08:00am ao 12:00am
                                 </li>
                                 <li>
                                     <a href="Tel:(027) 0800 250 0408">(027) 0800 250 0408</a>
@@ -34,10 +34,9 @@
                       <li><a href="#review">Feedback</a></li>
                       <li><a href="#blog">Blog</a></li>
                       <li class="menu-has-children"><a href="">Páginas</a>
-                        <ul>
-                            <li><a href='{{route('store.index')}}'>Loja</a></li>
+                       <!-- <ul>
                           <li><a href="elements.html">Curiosidade</a></li>
-                        </ul>
+                        </ul>-->
                       </li>
                     </ul>
                   </nav><!-- #nav-menu-container -->		    		
